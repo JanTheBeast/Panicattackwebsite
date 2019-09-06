@@ -4,12 +4,15 @@ a, a:visited{
     font-size: 25px;
     text-decoration: none;
 }
+a:hover{
+    text-decoration:underline;
+}
 
 /*text related*/
 .page{
-    margin: 30px;
     font-size: 2em;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 30px;
 }
 
 p{
@@ -31,6 +34,7 @@ header{
     display: flex;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     list-style: none;
+    text-align: center;
 }
 
 li{
@@ -62,4 +66,20 @@ li{
 
 .portrait{
     width: 220px;
+}
+
+/*footer*/
+.footer{
+    display: flex;
+}
+
+.logo a{
+    padding: 50px 100px;
+    background-size: 210px;
+    background-repeat: no-repeat;
+    background-image: url(images/logobeekvlietdef.jpg);
+    display:inline-block;
+    width: 300;
+    height:280;
+    text-indent: -9999999px;
 }
