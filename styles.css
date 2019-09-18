@@ -1,9 +1,9 @@
 /*links*/
 a, a:visited{
-    color: white;
+    color: red;
     font-size: 25px;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
@@ -37,6 +37,7 @@ header{
 }
 
 ul.header{
+    float: left;
     justify-content: space-between;
     align-items: stretch;
     width:device-width;
@@ -46,9 +47,27 @@ ul.header{
     text-align: center;
 }
 
+li ul{
+    display:none;
+    position: absolute;
+    background-color: rgb(50, 50, 50);
+
+}
+ul li:hover ul{
+    display:block;
+}
+
+ul li ul li a{
+    font-size: 20px;
+    padding: 30px 0px;
+}
+
 li{
     margin: 10px 10% 10px 10px;
     color: white;
+    float:left;
+    list-style: none;
+    position:relative;
 }
 
 /*team page*/
