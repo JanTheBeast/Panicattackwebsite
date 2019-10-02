@@ -74,6 +74,17 @@ p.welcome{
     width: 830px;
 }
 
+img.welcome{
+    width: 300px;
+    border: 1px solid black;
+}
+
+ul.welcome{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+
 /*team page*/
 .teammembers {
     position: relative;
@@ -99,6 +110,14 @@ p.welcome{
 
 .portrait{
     width: 220px;
+    border: 1px solid black;
+}
+
+/*Agende*/
+table.agenda, th, td{
+    border: 1px solid black;
+    text-align: left;
+    background-color: #f1f1c1;
 }
 
 /*footer*/
