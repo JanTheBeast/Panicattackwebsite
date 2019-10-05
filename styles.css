@@ -21,7 +21,7 @@ a:hover{
 }
 
 p{
-    color: black;
+    color: #e3e3e3;
     font-size: 18px;
     margin-top: -7px;
     margin-left: 30px;
@@ -30,7 +30,7 @@ p{
 
 /*banner*/
 header{
-    background-color: rgb(50, 50, 50);
+    background-image: url(images/abstract-black-dark-banner-on-hexagon-mesh-vector-22617481.jpg);
     height: 100px;
     padding: 10px 0px;
     margin: 0px 0px 100px 0px;
@@ -49,7 +49,7 @@ ul.header{
 li ul.drop{
     display: none;
     position: absolute;
-    background-color: rgb(50, 50, 50);
+    background-image: url(images/abstract-black-dark-banner-on-hexagon-mesh-vector-22617481.jpg);
 
 }
 ul li:hover ul.drop{
@@ -88,7 +88,7 @@ ul.welcome{
 /*team page*/
 .teammembers {
     position: relative;
-    background: rgb(201, 201, 201);
+    background-image: url(images/11-3px-tile-Free-Dark-Background.jpg);
     padding: 50px 10px;
     width: device-width;
     list-style: none;
@@ -103,7 +103,7 @@ ul.welcome{
 
 .name{
     font-size: 20px;
-    color: black;
+    color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 20px;
 }
@@ -113,7 +113,7 @@ ul.welcome{
     border: 1px solid black;
 }
 
-/*Agende*/
+/*Agenda*/
 table.agenda, th, td{
     border: 1px solid black;
     text-align: left;
